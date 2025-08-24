@@ -3,16 +3,14 @@ body {
     margin: 0;
     padding: 0;
     font-family:'Source Sans Pro', Verdana, Geneva, Tahoma, sans-serif ;
-   text-align: center;
-   background-color: #FAFAFA;
-   
+    text-align: center;
+    background-color: #FAFAFA;
 }
 *,*::after, *::before{
     box-sizing: border-box;
 }
 
 .wrapper{
- 
     height: 100dvh;
 }
 
@@ -34,15 +32,14 @@ header{
     color: black;
     background-image: url("/images/head.jpg");
     background-repeat:no-repeat;
-background-size: 100%;
-background-position: center;
- 
+    background-size: 100%;
+    background-position: center;
 }
 
 nav{
     display: flex;
     align-content: space-between;
- align-items: center;
+    align-items: center;
     height: 59px;
     margin-bottom: 2em;
     padding: 0 1em 0 1em;
@@ -58,7 +55,7 @@ nav>span{
 
 nav>i{
     color:rgb(17, 16, 29);
-   align-self: center;
+    align-self: center;
 }
 
 nav>div{
@@ -75,7 +72,7 @@ nav>div a{
     position: absolute;
     text-align: left;
     margin-top: 287px;
-max-width: 1000px;
+    max-width: 1000px;
     padding:1rem;
     color: #fff;
     background-color: #202020ce;
@@ -115,19 +112,17 @@ main{
     grid-template-columns: repeat(3, minmax(250px, 309px));
     grid-template-rows: auto auto auto 110px;
     grid-gap: 10%;
-  
 }
 
 .short{
     grid-template-columns: repeat(3, minmax(250px, 309px));
     grid-template-rows: auto auto 110px;
-
 }
 
 
 section {
-   display: flex;
-   flex-direction: column;
+    display: flex;
+    flex-direction: column;
    /* margin-bottom: 1.9em; */
     width: 100%;
 }
@@ -135,9 +130,9 @@ section {
 section span{
     display: inline-block;
     width: 200px;
-align-self: left;
-margin-left: 0;
- font-size: 0.87rem;
+    align-self: left;
+    margin-left: 0;
+    font-size: 0.87rem;
 }
 
 section article{
@@ -172,11 +167,11 @@ a:hover{
 }
 
 .footer{
-   grid-area: span 1/span 3;
-justify-self: center;
+    grid-area: span 1/span 3;
+    justify-self: center;
     display: block;
-   height: 110px;
-   width: 100vw;
+    height: 110px;
+    width: 100vw;
     padding-top: 37px;
     padding-bottom: 37px;
     letter-spacing: -0.03rem;
@@ -188,15 +183,12 @@ justify-self: center;
 }
 
 .journal{
- 
-margin:0;
-
+    margin:0;
 }
 
 .copy{
 margin: 0;
     font-weight: 400;
-   
 }
 
 
@@ -207,13 +199,12 @@ margin: 0;
     justify-self: center;
     display: block;
     grid-area: span 1/span 3;
-
 }
 
 .container{
     display: flex;
-   justify-content: center ;
-   align-items: center;
+    justify-content: center ;
+    align-items: center;
 }
 
 .about{
@@ -224,7 +215,6 @@ margin: 0;
     color:#151515;
     width: 60%;
     text-align: left;
-
 }
 
 .about-text{
@@ -246,7 +236,6 @@ margin: 0;
 }
 
 .about h1{
- 
     font-size: 2.25rem;
     font-weight: 700;
     letter-spacing: -0.03em;
@@ -254,7 +243,7 @@ margin: 0;
 }
 
 .link{
-   position:relative;
+    position:relative;
     margin-top: 0px;
 }
 
@@ -270,7 +259,6 @@ margin: 0;
     .short{
         grid-template-columns: minmax(374px, 90vw);
         grid-template-rows: auto  auto auto auto 110px;
-    
     }
 
     .header{
@@ -279,28 +267,26 @@ margin: 0;
     
     img{
         max-height: 100%;
-       max-width:100%;
+        max-width:100%;
     }
 
-.more{
-    grid-area: span 1/span 1;
-
-}
-
-.footer{
-    grid-area: span 1/span 1;
-}
-
-.post{
-    height: 100px;
-    margin:0px;
-    align-self: center;
-    justify-self: center;
-    display: block;
-    grid-area: span 1/span 1;
-
-}
-
+    .more{
+        grid-area: span 1/span 1;
     }
+
+    .footer{
+        grid-area: span 1/span 1;
+    }
+
+    .post{
+        height: 100px;
+        margin:0px;
+        align-self: center;
+        justify-self: center;
+        display: block;
+        grid-area: span 1/span 1;
+    }
+    
+}
 
 
